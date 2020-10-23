@@ -2,6 +2,7 @@
   padding-right: 10px;
   width: 40%;
   height: auto;
+  min-width: 250px;
 }
 
 .wave {
