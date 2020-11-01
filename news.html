@@ -13,23 +13,24 @@
       content="width=device-width, initial-scale=1, user-scalable=no"
     />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="./assets/css/cards.css" />
+    <link rel="stylesheet" href="./assets/css/newsCards.css" />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
 
 
 <script>
-    fetch(
-      "https://cors-anywhere.herokuapp.com/http://newsapi.org/v2/top-headlines?country=in&category=technology&apiKey=fbfcd83a12f54ab6ab16362effa18183",
-      {
-        headers: new Headers({ "X-Requested-With": "ready to go" }),
-      }
-    )
-    .then((a) => a.json())
-    .then(response =>{
-      console.log(response)
-    })
+const url = "https://saurav.tech/NewsAPI/top-headlines/category/technology/in.json"
+fetch(url)
+.then(a =>a.json())
+.then( response =>{
+  var newsCard = document.getElementsByClassName("card-grid")
+  for(var i=0;i<response.articles.length;i++){
+    
+    newsCard.innerHTML += "<a class='card' href='"+response.articles[i].url+"'><div class='card__background' style='background-image: url("+response.articles[i].urlToImage+")'></div><div class='card__content'><p class='card__category'>GitHub</p><h3 class='card__heading'>"+response.articles[i].title+"</h3></div></a>"
+   //console.log("<a class='card' href='"+response.articles[i].url+"'><div class='card__background' style='background-image: url("+response.articles[i].urlToImage+")'></div><div class='card__content'><p class='card__category'>GitHub</p><h3 class='card__heading'>"+response.articles[i].title+"</h3></div></a>")
+  }
+})
 </script>
 
 
@@ -86,18 +87,18 @@
       </section>
 
       <!-- Main -->
-      
+
       <div id="main">
         <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
         <section class="hero-section">
           <div class="card-grid">
-            <a class="card" href="https://github.com/gunjanmimo/Search-Engine">
-              <div class="card__background" style="background-image: url(https://codeastrology.com/wp-content/uploads/2019/04/Search-enginee-1-1200x700.jpg)"></div>
-              <div class="card__content">
-                <p class="card__category">GitHub</p>
-                <h3 class="card__heading">Google search engine clone</h3>
+            <a class='card' href="https://github.com/gunjanmimo/Search-Engine">
+              <div class='card__background' style="background-image: url(https://codeastrology.com/wp-content/uploads/2019/04/Search-enginee-1-1200x700.jpg)"></div>
+              <div class='card__content'>
+                <p class='card__category'>GitHub</p>
+                <h3 class='card__heading'>Google search engine clone</h3>
               </div>
-            </a>
+            </a>       
           <div>
         </section>
       </div>
@@ -215,5 +216,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    
   </body>
 </html>
