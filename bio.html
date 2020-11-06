@@ -14,7 +14,15 @@
     />
 
     <!-- bootstrap -->
-
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/gitgraph.js/1.11.4/gitgraph.css"
+    />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gitgraph.js/1.11.4/gitgraph.min.js"></script>
+    <script src="./assets/js/chart.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    <script src="https://code.highcharts.com/highcharts.js"></script>
+    <script src="https://code.highcharts.com/highcharts-more.js"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
@@ -23,6 +31,7 @@
 
     <link rel="stylesheet" href="./assets/css/bio.css" />
     <link rel="stylesheet" href="assets/css/main.css" />
+    <link rel="stylesheet" href="./assets/css/chart.css" />
     <noscript
       ><link rel="stylesheet" href="assets/css/noscript.css"
     /></noscript>
@@ -238,22 +247,14 @@
             </div>
             <br /><br />
 
-            <!-- 
             <div class="row">
-              <div class="col-6 col-12-small">
-                <h3>Sem turpis amet semper</h3>
-                <p>
-                  Nunc lacinia ante nunc ac lobortis. Interdum adipiscing
-                  gravida odio porttitor sem non mi integer non faucibus ornare
-                  mi ut ante amet placerat aliquet. Volutpat commodo eu sed ante
-                  lacinia. Sapien a lorem in integer ornare praesent commodo
-                  adipiscing arcu in massa commodo lorem accumsan at odio massa
-                  ac ac. Semper adipiscing varius montes viverra nibh in
-                  adipiscing blandit tempus accumsan.
-                </p>
+              <div class="col-6 col-12-small w-auto">
+                <h1 class="title-skills">Exprience</h1>
+                <canvas id="graph"></canvas>
               </div>
+              <!-- skill graph -->
               <div class="col-6 col-12-small">
-                <h3>Magna odio tempus commodo</h3>
+                <!-- <h3>Magna odio tempus commodo</h3>
                 <p>
                   In arcu accumsan arcu adipiscing accumsan orci ac. Felis id
                   enim aliquet. Accumsan ac integer lobortis commodo ornare
@@ -262,8 +263,61 @@
                   adipiscing mi eu nullam accumsan morbi arcu ornare odio mi
                   adipiscing nascetur lacus ac interdum morbi accumsan vis mi
                   accumsan ac praesent.
-                </p>
+                </p> -->
+                <div class="container">
+                  <h1 class="title-skills">Skills</h1>
+                  <div class="bar">
+                    <div class="skill">HTML & CSS</div>
+                    <div class="bar-outer">
+                      <div class="speech-bubble html">75%</div>
+                      <div class="bar-inner ht"></div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="skill">jQuery</div>
+                    <div class="bar-outer">
+                      <div class="speech-bubble jquery">25%</div>
+                      <div class="bar-inner jq"></div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="skill">Sketch</div>
+                    <div class="bar-outer">
+                      <div class="speech-bubble sketch">90%</div>
+                      <div class="bar-inner sk"></div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="skill">Photoshop</div>
+                    <div class="bar-outer">
+                      <div class="speech-bubble photo">75%</div>
+                      <div class="bar-inner ph"></div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="skill">Illustrator</div>
+                    <div class="bar-outer">
+                      <div class="speech-bubble illustrator">90%</div>
+                      <div class="bar-inner il"></div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="skill">InDesign</div>
+                    <div class="bar-outer">
+                      <div class="speech-bubble indesign">85%</div>
+                      <div class="bar-inner in"></div>
+                    </div>
+                  </div>
+                  <div class="bar">
+                    <div class="skill">Fluent in Korean</div>
+                    <div class="bar-outer">
+                      <div class="speech-bubble fluent">75%</div>
+                      <div class="bar-inner fl"></div>
+                    </div>
+                  </div>
+                </div>
               </div>
+
               <div class="col-4 col-12-medium">
                 <h3>Interdum sapien gravida</h3>
                 <p>
@@ -294,9 +348,10 @@
                   blandit tempus accumsan.
                 </p>
               </div>
-            </div> -->
+            </div>
+            -->
 
-            <!-- <hr class="major" />
+            <hr class="major" />
 
             <h2 id="elements">Elements</h2>
             <div class="row gtr-200">
@@ -850,7 +905,8 @@ while (!deck.isInOrder()) {
 print 'It took ' + i + ' iterations to sort the deck.';
 </code></pre>
               </div>
-            </div> -->
+            </div>
+            -->
           </div>
         </section>
       </div>
@@ -958,5 +1014,6 @@ print 'It took ' + i + ' iterations to sort the deck.';
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
+    <script src="./assets/js/chart.js"></script>
   </body>
 </html>
