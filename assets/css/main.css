@@ -3224,6 +3224,7 @@ button:disabled,
   height: inherit;
   line-height: inherit;
   padding: 0 1.5em;
+  text-decoration: none;
 }
 
 #header .logo strong {
