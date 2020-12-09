@@ -89,3 +89,7 @@
  .card-intro{
 	 color: black;
  }
+ .company-link{
+	 text-decoration: none;
+	 font-weight: bolder;
+ }
