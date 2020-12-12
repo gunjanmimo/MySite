@@ -5,224 +5,214 @@
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 -->
 <html>
-  <head>
-    <title>Developer Swag</title>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, user-scalable=no"
-    />
-    <link rel="shortcut icon" href="./images/favicon/favicon.ico">
-    <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
-    <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="stylesheet" href="./assets/css/newsCards.css" />
-    <noscript
-      ><link rel="stylesheet" href="assets/css/noscript.css"
-    /></noscript>
+
+<head>
+  <title>Developer Swag</title>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <link rel="shortcut icon" href="./images/favicon/favicon.ico">
+  <link rel="icon" type="image/png" sizes="16x16" href="./images/favicon/favicon-16x16.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon/favicon-32x32.png">
+  <link rel="stylesheet" href="assets/css/main.css" />
+  <link rel="stylesheet" href="./assets/css/newsCards.css" />
+  <noscript>
+    <link rel="stylesheet" href="assets/css/noscript.css" />
+  </noscript>
 
 
-<script>
-const url = "https://raw.githubusercontent.com/swapagarwal/swag-for-dev/master/data.json"
-fetch(url)
-.then(a =>a.json())
-.then( response =>{
-  var newsCard = document.getElementById("newsCard")
-  for(var i=0;i<response.length;i++){
- if (!response[i].tags.includes("expired")){
-      newsCard.innerHTML += "<a class='card' href='"+response[i].reference+"'><div class='card__background' style='background-image: url("+response[i].image+")'></div><div class='card__content'><p class='card__category' style='font-weight: 900;'>"+response[i].name+"</p><h3 class='card__heading'>"+response[i].description+"</h3></div></a>";
+  <script>
+    const url = "https://raw.githubusercontent.com/swapagarwal/swag-for-dev/master/data.json"
+    fetch(url)
+      .then(a => a.json())
+      .then(response => {
+        var newsCard = document.getElementById("newsCard")
+        var expiredCard = document.getElementById("expiredCard")
+        for (var i = 0; i < response.length; i++) {
+          if (!response[i].tags.includes("expired")) {
+            newsCard.innerHTML += "<a class='card' href='" + response[i].reference + "'><div class='card__background' style='background-image: url(" + response[i].image + ")'></div><div class='card__content'><p class='card__category' style='font-weight: 900;'>" + response[i].name + "</p><h3 class='card__heading'>" + response[i].description + "</h3></div></a>";
+          }
+          else{
+            expiredCard.innerHTML += "<a class='card' href='" + response[i].reference + "'><div class='card__background' style='background-image: url(" + response[i].image + ")'></div><div class='card__content'><p class='card__category' style='font-weight: 900;'>" + response[i].name + "</p><h3 class='card__heading'>" + response[i].description + "</h3></div></a>";
+          }
+        
+        }
+      })
+  </script>
+  <style>
+    #newsCard>div {
+      display: none;
+    }
+    #expiredCard>div {
+      display: none;
+    }
+  </style>
 
+</head>
 
-   //console.log("<a class='card' href='"+response.articles[i].url+"'><div class='card__background' style='background-image: url("+response.articles[i].urlToImage+")'></div><div class='card__content'><p class='card__category'>GitHub</p><h3 class='card__heading'>"+response.articles[i].title+"</h3></div></a>")
-  }
-}
-})
-</script>
-<style>
-  #newsCard >div{
-    display: none;
-  }
-</style>
+<body class="is-preload">
+  <!-- Wrapper -->
+  <div id="wrapper">
+    <!-- Header -->
+    <!-- Note: The "styleN" class below should match that of the banner element. -->
+    <header id="header" class="alt style2">
+      <a href="index.html" class="logo"><strong>Portfolio</strong> <span>by Gunjan Paul</span></a>
+      <nav>
+        <a href="#menu">Menu</a>
+      </nav>
+    </header>
 
-  </head>
-  <body class="is-preload">
-    <!-- Wrapper -->
-    <div id="wrapper">
-      <!-- Header -->
-      <!-- Note: The "styleN" class below should match that of the banner element. -->
-      <header id="header" class="alt style2">
-        <a href="index.html" class="logo"
-          ><strong>Portfolio</strong> <span>by Gunjan Paul</span></a
-        >
-        <nav>
-          <a href="#menu">Menu</a>
-        </nav>
-      </header>
-
-      <!-- Menu -->
-      <nav id="menu">
-        <ul class="links">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="bio.html">Bio</a></li>
-          <li><a href="projects.html">Projects</a></li>
-          <li><a href="blogs.html">Blogs</a></li>
-          <li><a href="news.html">News</a></li>
-          <li><a href="swag.html">About</a></li>
-        </ul>
-          <!-- <ul class="actions stacked">
+    <!-- Menu -->
+    <nav id="menu">
+      <ul class="links">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bio.html">Bio</a></li>
+        <li><a href="projects.html">Projects</a></li>
+        <li><a href="blogs.html">Blogs</a></li>
+        <li><a href="news.html">News</a></li>
+        <li><a href="swag.html">About</a></li>
+      </ul>
+      <!-- <ul class="actions stacked">
           <li><a href="#" class="button primary fit">Get Started</a></li>
           <li><a href="#" class="button fit">Log In</a></li>
         </ul> -->
-      </nav>
+    </nav>
 
-      <!-- Banner -->
-      <!-- Note: The "styleN" class below should match that of the header element. -->
-      <section id="banner" class="style2">
-        <div class="inner">
-          <span class="image">
-            <img
-              src="https://www.gadzooki.com/wp-content/uploads/2014/08/techie_swag.jpg"
-              alt=""
-            />
-          </span>
-          <header class="major">
-            <h1>Developer Swag</h1>
-          </header>
-          <div class="content">
-            <p>
-				As a developer, nothing piques my interest more than developer swag!
+    <!-- Banner -->
+    <!-- Note: The "styleN" class below should match that of the header element. -->
+    <section id="banner" class="style2">
+      <div class="inner">
+        <span class="image">
+          <img src="https://www.gadzooki.com/wp-content/uploads/2014/08/techie_swag.jpg" alt="" />
+        </span>
+        <header class="major">
+          <h1>Developer Swag</h1>
+        </header>
+        <div class="content">
+          <p>
+            As a developer, nothing piques my interest more than developer swag!
 
-				I created devSwag to scratch my own itch by starting a curation of such opportunities in Feb '18. These are crowdsourced and verified by the community. All of them ship worldwide! 🚀            </p>
-          </div>
+            I created devSwag to scratch my own itch by starting a curation of such opportunities in Feb '18. These are
+            crowdsourced and verified by the community. All of them ship worldwide! 🚀 </p>
         </div>
-      </section>
-
-      <!-- Main -->
-
-      <div id="main">
-        <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
-        <section class="hero-section">
-          
-          <div class="card-grid" id="newsCard">
-           
-          <div>
-         
-        </section>
       </div>
+    </section>
 
-      <!-- Contact -->
-      <section id="contact">
-        <div class="inner">
-          <section>
-            <form method="post" action="#">
-              <div class="fields">
-                <div class="field half">
-                  <label for="name">Name</label>
-                  <input type="text" name="name" id="name" />
-                </div>
-                <div class="field half">
-                  <label for="email">Email</label>
-                  <input type="text" name="email" id="email" />
-                </div>
-                <div class="field">
-                  <label for="message">Message</label>
-                  <textarea name="message" id="message" rows="6"></textarea>
-                </div>
-              </div>
-              <ul class="actions">
-                <li>
-                  <input type="submit" value="Send Message" class="primary" />
-                </li>
-                <li><input type="reset" value="Clear" /></li>
-              </ul>
-            </form>
-          </section>
-          <section class="split">
-            <section>
-              <div class="contact-method">
-                <span class="icon solid alt fa-envelope"></span>
-                <h3>Email</h3>
-                <a href="#">gunjan.mtbpaul@gmail.com</a>
-              </div>
-            </section>
-            <section>
-              <div class="contact-method">
-                <span class="icon solid alt fa-phone"></span>
-                <h3>Phone</h3>
-                <span>+91 6295657810</span>
-              </div>
-            </section>
-            <section>
-              <div class="contact-method">
-                <span class="icon solid alt fa-home"></span>
-                <h3>Address</h3>
-                <span
-                  >Gurukul, Sikar Road Near Udaipuria Mod<br />
-                  Jaipur, Rajasthan 303807<br />
-                  India</span
-                >
-              </div>
-            </section>
-          </section>
-        </div>
+    <!-- Main -->
+
+    <div id="main">
+      <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+ 
+      <section class="hero-section">
+        <h1 style="margin-right: 20px;">Active</h1>
+        <div class="card-grid" id="newsCard">
+          <div>
       </section>
-
-      <!-- Footer -->
-      <footer id="footer">
-        <div class="inner">
-          <ul class="icons">
-            <li>
-              <a
-                href="https://twitter.com/GunjanPaul2"
-                class="icon brands alt fa-twitter"
-                ><span class="label">Twitter</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.facebook.com/gunjan.paul.372/"
-                class="icon brands alt fa-facebook-f"
-                ><span class="label">Facebook</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.instagram.com/gunjan_mimo/"
-                class="icon brands alt fa-instagram"
-                ><span class="label">Instagram</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="https://github.com/gunjanmimo"
-                class="icon brands alt fa-github"
-                ><span class="label">GitHub</span></a
-              >
-            </li>
-            <li>
-              <a
-                href="https://www.linkedin.com/in/gunjan-paul-8a2806152/"
-                class="icon brands alt fa-linkedin-in"
-                ><span class="label">LinkedIn</span></a
-              >
-            </li>
-          </ul>
-          <ul class="copyright">
-            <li>&copy; Made with ❤️</li>
-            <li>Design: <a href="https://html5up.net">Gunjan Paul</a></li>
-          </ul>
-        </div>
-      </footer>
+     
+      <section class="hero-section">
+        <h1 style="margin-right: 20px;">Expired</h1>
+        <div class="card-grid" id="expiredCard">
+          <div>
+      </section>
     </div>
 
-    <!-- Scripts -->
-    <script src="assets/js/jquery.min.js"></script>
-    <script src="assets/js/jquery.scrolly.min.js"></script>
-    <script src="assets/js/jquery.scrollex.min.js"></script>
-    <script src="assets/js/browser.min.js"></script>
-    <script src="assets/js/breakpoints.min.js"></script>
-    <script src="assets/js/util.js"></script>
-    <script src="assets/js/main.js"></script>
-    
-  </body>
+
+    <!-- Contact -->
+    <section id="contact">
+      <div class="inner">
+        <section>
+          <form method="post" action="#">
+            <div class="fields">
+              <div class="field half">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name" />
+              </div>
+              <div class="field half">
+                <label for="email">Email</label>
+                <input type="text" name="email" id="email" />
+              </div>
+              <div class="field">
+                <label for="message">Message</label>
+                <textarea name="message" id="message" rows="6"></textarea>
+              </div>
+            </div>
+            <ul class="actions">
+              <li>
+                <input type="submit" value="Send Message" class="primary" />
+              </li>
+              <li><input type="reset" value="Clear" /></li>
+            </ul>
+          </form>
+        </section>
+        <section class="split">
+          <section>
+            <div class="contact-method">
+              <span class="icon solid alt fa-envelope"></span>
+              <h3>Email</h3>
+              <a href="#">gunjan.mtbpaul@gmail.com</a>
+            </div>
+          </section>
+          <section>
+            <div class="contact-method">
+              <span class="icon solid alt fa-phone"></span>
+              <h3>Phone</h3>
+              <span>+91 6295657810</span>
+            </div>
+          </section>
+          <section>
+            <div class="contact-method">
+              <span class="icon solid alt fa-home"></span>
+              <h3>Address</h3>
+              <span>Gurukul, Sikar Road Near Udaipuria Mod<br />
+                Jaipur, Rajasthan 303807<br />
+                India</span>
+            </div>
+          </section>
+        </section>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="footer">
+      <div class="inner">
+        <ul class="icons">
+          <li>
+            <a href="https://twitter.com/GunjanPaul2" class="icon brands alt fa-twitter"><span
+                class="label">Twitter</span></a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/gunjan.paul.372/" class="icon brands alt fa-facebook-f"><span
+                class="label">Facebook</span></a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/gunjan_mimo/" class="icon brands alt fa-instagram"><span
+                class="label">Instagram</span></a>
+          </li>
+          <li>
+            <a href="https://github.com/gunjanmimo" class="icon brands alt fa-github"><span
+                class="label">GitHub</span></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/gunjan-paul-8a2806152/" class="icon brands alt fa-linkedin-in"><span
+                class="label">LinkedIn</span></a>
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>&copy; Made with ❤️</li>
+          <li>Design: <a href="https://html5up.net">Gunjan Paul</a></li>
+        </ul>
+      </div>
+    </footer>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/jquery.min.js"></script>
+  <script src="assets/js/jquery.scrolly.min.js"></script>
+  <script src="assets/js/jquery.scrollex.min.js"></script>
+  <script src="assets/js/browser.min.js"></script>
+  <script src="assets/js/breakpoints.min.js"></script>
+  <script src="assets/js/util.js"></script>
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
