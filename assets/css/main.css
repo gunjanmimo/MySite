@@ -3679,7 +3679,7 @@ body.is-preload #banner > .inner {
 }
 
 #main > * {
-  border-top: solid 1px rgba(212, 212, 255, 0.1);
+  /* border-top: solid 1px rgba(212, 212, 255, 0.1); */
 }
 
 #main > *:first-child {
