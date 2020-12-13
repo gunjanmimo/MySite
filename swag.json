@@ -38,7 +38,7 @@
     {
       "name": "Appsmith",
       "difficulty": "medium",
-      "description": "Receive Appsmith stickers for contributing a valid PR to the <a href='https://github.com/appsmithorg/appsmith'>Appsmith repo</a>. If you contribute 3 or more, you'll also get a t-shirt",
+      "description": "Receive Appsmith stickers for contributing a valid PR to the Appsmith repo. If you contribute 3 or more, you'll also get a t-shirt",
       "reference": "https://github.com/appsmithorg/appsmith/discussions/863",
       "image": "https://uploads-ssl.webflow.com/5f3d61ffeb42162389fc57d1/5f3f9e47c4fb412417828856_Frame%20555V.png",
       "dateAdded": "2020-10-01T00:00:00.000Z",
@@ -74,7 +74,7 @@
     {
       "name": "Aras",
       "difficulty": "medium",
-      "description": "Submit an improvement to any <a href='http://community.aras.com/en/projects/'>Aras Community Project</a> in October 2018 to earn stickers! Submit five, earn a limited edition T-shirt!",
+      "description": "Submit an improvement to any Aras Community Project in October 2018 to earn stickers! Submit five, earn a limited edition T-shirt!",
       "reference": "https://community.aras.com/b/english/posts/join-aras-labs-hacktoberfest-2018",
       "image": "https://www.aras.com/-/media/Images/Content-Row-Images/im-an-innovator.png",
       "dateAdded": "2018-10-24T11:45:00.000Z",
@@ -137,7 +137,7 @@
     {
       "name": "CodingBlocks",
       "difficulty": "medium",
-      "description": "Have one merged PR on any of <a href='https://cb.lk/gh'>Coding Blocks open source projects</a> and get t-shirt with stickers or even a bag (1 PR - t-shirt, 5+ PRs - bag)",
+      "description": "Have one merged PR on any of Coding Blocks open source projects and get t-shirt with stickers or even a bag (1 PR - t-shirt, 5+ PRs - bag)",
       "reference": "https://blog.codingblocks.com/2019/cb-hacktoberfest-2019/",
       "image": "https://i.imgur.com/0SrSsNM.png",
       "dateAdded": "2019-10-09T19:00:00.000Z",
@@ -227,7 +227,7 @@
     {
       "name": "Earthly",
       "difficulty": "medium",
-      "description": "First 40 participants to get atleast one PR merged to <a href='https://github.com/earthly/earthly'>earthly</a> will receive Sticker. You can also qualify for the sticker by adding a working Earthfile file to another opensource project.",
+      "description": "First 40 participants to get atleast one PR merged to earthly will receive Sticker. You can also qualify for the sticker by adding a working Earthfile file to another opensource project.",
       "reference": "https://blog.earthly.dev/hacktoberfest-2020/",
       "image": "https://static.wixstatic.com/media/2cf192_051ee9f4b18b42a49c5d3bb11d87e3f3~mv2.png/v1/fill/w_162,h_50,al_c,q_85,usm_0.66_1.00_0.01/Dark%20bg.webp",
       "dateAdded": "2020-10-01T16:38:00.000Z",
@@ -236,7 +236,7 @@
     {
       "name": "erxes",
       "difficulty": "medium",
-      "description": "Submit 3 issues and 1 PR to their <a href='https://github.com/erxes/erxes'>repo</a>, get a t-shirt and stickers.",
+      "description": "Submit 3 issues and 1 PR to their, get a t-shirt and stickers.",
       "reference": "https://erxes.io/hubspot-alternative-erxes-swag",
       "image": "https://i.imgur.com/pE9Ml3v.png",
       "dateAdded": "2020-03-16T05:06:00.000Z",
@@ -290,7 +290,7 @@
     {
       "name": "Hasura",
       "difficulty": "medium",
-      "description": "Submit a PR to Hasura's <a href='https://github.com/hasura/graphql-engine'>GraphQL Engine</a> or <a href='https://github.com/hasura/learn-graphql'>GraphQL Tutorial Series</a> during Hacktoberfest 2020 and get a Hasura sticker pack. For all valid PRs closing an issue with the label hacktoberfest, a secret swag will be sent.",
+      "description": "Submit a PR to Hasura's GraphQL Engine or GraphQL Tutorial Series during Hacktoberfest 2020 and get a Hasura sticker pack. For all valid PRs closing an issue with the label hacktoberfest, a secret swag will be sent.",
       "reference": "https://hasura.io/blog/hasura-joins-hacktoberfest-3rd-year-in-a-row/",
       "image": "https://hasura.io/blog/content/images/2020/09/Hacktoberfest-2020--5--1.png",
       "dateAdded": "2020-10-02T12:27:00.000Z",
@@ -398,7 +398,7 @@
     {
       "name": "Les tilleuls",
       "difficulty": "medium",
-      "description": "To win a t-shirt, make 3 pull requests on API Platform's GitHub repositories by October 31st, and then <a href='https://cooptilleuls.typeform.com/to/CG0pLd'>fill in this form.</a>",
+      "description": "To win a t-shirt, make 3 pull requests on API Platform's GitHub repositories by October 31st, and then fill in this form.",
       "reference": "https://les-tilleuls.coop/fr/blog/article/celebrate-hacktoberfest-with-api-platform",
       "image": "https://i.imgur.com/uX5nRnW.png",
       "dateAdded": "2019-10-18T05:55:00.000Z",
@@ -452,7 +452,7 @@
     {
       "name": "Microsoft",
       "difficulty": "medium",
-      "description": "Make one pull request in October 2018 to any <a href='https://opensource.microsoft.com/'>open source Microsoft repository</a>, earn a limited edition T-shirt!",
+      "description": "Make one pull request in October 2018 to any open source Microsoft repository, earn a limited edition T-shirt!",
       "reference": "https://cloudblogs.microsoft.com/opensource/2018/09/30/join-hacktoberfest-2018-celebration-microsoft/",
       "image": "https://i.imgur.com/d8Sa90c.jpg",
       "dateAdded": "2018-10-01T08:36:05.000Z",
@@ -470,7 +470,7 @@
     {
       "name": "Netlify",
       "difficulty": "easy",
-      "description": "Just fill out the <a href='https://swag.netlify.com/'>form</a> and get stickers.",
+      "description": "Just fill out the form and get stickers.",
       "reference": "https://swag.netlify.com/",
       "image": "https://i.imgur.com/lRJYJ3o.jpg",
       "dateAdded": "2018-04-27T19:36:39.000Z",
@@ -479,7 +479,7 @@
     {
       "name": "Nexmo",
       "difficulty": "medium",
-      "description": "Have one accepted pull request in October 2018 to any <a href='https://github.com/nexmo/'>Nexmo Repository</a>, earn a limited edition #nextoberfest T-shirt!",
+      "description": "Have one accepted pull request in October 2018 to any Nexmo Repository, earn a limited edition #nextoberfest T-shirt!",
       "reference": "https://www.nexmo.com/blog/2018/10/09/join-nextoberfest-tis-the-season-to-be-hacking-dr/",
       "image": "https://www.nexmo.com/wp-content/uploads/2018/10/Nextoberfest.png",
       "dateAdded": "2018-10-12T13:32:07.000Z",
@@ -488,7 +488,7 @@
     {
       "name": "npm",
       "difficulty": "hard",
-      "description": "Fix a <a href='https://npm.community/c/bugs'>bug</a>, get a fashionable pair of socks!",
+      "description": "Fix a bug, get a fashionable pair of socks!",
       "reference": "http://blog.npmjs.org/post/129827785565/npm-weekly-30-package-scripts-for-tooling-a",
       "image": "https://i.imgur.com/saUR1HM.jpg",
       "dateAdded": "2018-02-18T06:03:12.000Z",
@@ -659,7 +659,7 @@
     {
       "name": "Switchblade",
       "difficulty": "medium",
-      "description": "Open three valid pull requests on a <a href='https://github.com/SwitchbladeBot/switchblade'>Switchblade repository</a> to receive three fancy Switchblade stickers and a \"thank you\" letter.",
+      "description": "Open three valid pull requests on a Switchblade repository to receive three fancy Switchblade stickers and a \"thank you\" letter.",
       "reference": "https://github.com/SwitchbladeBot/switchblade/issues/1203",
       "image": "https://user-images.githubusercontent.com/25179120/94884272-65aba600-0443-11eb-8374-d2c570ef385d.png",
       "dateAdded": "2020-10-02T12:46:00.000Z",
@@ -668,7 +668,7 @@
     {
       "name": "Twilio",
       "difficulty": "medium",
-      "description": "Complete the first set of objectives in <a href='https://twilio.com/quest'>Twilio Quest</a> and get a Twilio Quest t-shirt right to your door.",
+      "description": "Complete the first set of objectives in Twilio Quest and get a Twilio Quest t-shirt right to your door.",
       "reference": "https://www.youtube.com/watch?v=r9MPBJjPQdA",
       "image": "https://pbs.twimg.com/media/DpB5PIYVAAAX4eC.jpg",
       "dateAdded": "2018-10-09T06:00:07.000Z",
@@ -713,7 +713,7 @@
     {
       "name": "Vonage",
       "difficulty": "medium",
-      "description": "Make a pull request to a <a href=\"https://github.com/Vonage\">Vonage repo</a> referencing an issue labeled \"Hacktoberfest\", fill out a form, and get $5 gift card or socks",
+      "description": "Make a pull request to a Vonage repo referencing an issue labeled \"Hacktoberfest\", fill out a form, and get $5 gift card or socks",
       "reference": "https://developer.nexmo.com/hacktoberfest",
       "image": "https://res.cloudinary.com/dsg3ucw55/image/upload/v1599671200/Logo_nstaby.svg",
       "dateAdded": "2020-10-01T10:15:00.000Z",
@@ -722,7 +722,7 @@
     {
       "name": "Webiny",
       "difficulty": "medium",
-      "description": "Join the <a href=\"https://webiny.com/slack\">Slack community</a>, get 2 Webiny PRs merged, and request your Swag Pack and a t-shirt.",
+      "description": "Join the Slack community, get 2 Webiny PRs merged, and request your Swag Pack and a t-shirt.",
       "reference": "https://dev.to/webiny/webiny-hacktoberfest-2020-49h4",
       "image": "https://res.cloudinary.com/practicaldev/image/fetch/s--FuHl5nFV--/c_imagga_scale,f_auto,fl_progressive,h_420,q_auto,w_1000/https://dev-to-uploads.s3.amazonaws.com/i/c9jfsatz14vkied629co.png",
       "dateAdded": "2020-09-30T16:35:00.000Z",
