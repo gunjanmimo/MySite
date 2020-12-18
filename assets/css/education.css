@@ -1,19 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Raleway');
- /* *, *::before, *::after {
-	 box-sizing: border-box;
-}
- html {
-	 background-color: #f8f8f8;
-}
- body {
-	 padding: 2rem 0.5rem;
-	 font-family: 'Raleway', Sans-serif;
-	 color: #32325d;
-	 -webkit-font-smoothing: antialiased;
-	 -moz-osx-font-smoothing: grayscale;
-	 text-rendering: optimizeLegibility;
-	 margin: 0;
-} */
+
  @media (min-width: 40rem) {
 	 body {
 		 padding: 2rem;
@@ -75,7 +61,7 @@
 	 font-size: 25px;
 	 line-height: 1.1em;
 	 color: #32325d;
-	 margin-bottom: 0.2em;
+	 margin-bottom: -0.8em;
 }
  .cards .card-image {
 	 height: 200px;
@@ -86,15 +72,17 @@
 	 border-radius: 6px 6px 0px 0px;
 	 opacity: 0.91;
 }
- .card-intro{
+ .card-intro>ul{
 	 color: black;
+	 
 
  }
  #responsibilities{
 	color: black;
 	font-weight: 500;
+	margin-bottom: -1em;
  }
- .company-link{
+ .company-link:hover{
 	 text-decoration: none;
 	 font-weight: bolder;
  }
