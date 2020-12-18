@@ -88,8 +88,11 @@
 }
  .card-intro{
 	 color: black;
-	 font-weight: 400;
 
+ }
+ #responsibilities{
+	color: black;
+	font-weight: 500;
  }
  .company-link{
 	 text-decoration: none;
