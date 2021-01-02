@@ -1,0 +1,138 @@
+[
+    {
+        "name": "React COVID-19 Tracker",
+        "desc": "An open-source React COVID-19 tracking app built using OpenStreetMap and covid19api",
+        "status": "completed",
+        "domain": "app development",
+        "github": "https://github.com/gunjanmimo/COVID-19-Tracker",
+        "url": ""
+    },
+    {
+        "name": "Webtech",
+        "desc": "Identify the technologies used on websites. (Dig-deep into web tech from your terminal)\n",
+        "status": "Open Source",
+        "domain": "penetration testing",
+        "github": "https://github.com/kaiiyer/webtech",
+        "url": ""
+    },
+    {
+        "name": "Real Time Loan Prediction",
+        "desc": "Django and machine learning based loan prediction system",
+        "status": "completed",
+        "domain": "data science",
+        "github": "https://github.com/gunjanmimo/real-time-loan-prediction",
+        "url": ""
+    },
+    {
+        "name": "Text Summarizer",
+        "desc": "Low cost text summarization model using NLP",
+        "status": "completed",
+        "domain": "data science",
+        "github": "https://github.com/gunjanmimo/Text-Summarizer",
+        "url": ""
+    },
+    {
+        "name": "IP Details Tracker",
+        "desc": "Auto ip detection and ip details from terminal",
+        "status": "completed",
+        "domain": "other",
+        "github": "https://github.com/gunjanmimo/IP-Details-Tracker",
+        "url": ""
+    },
+    {
+        "name": "Car & Pedestrian Detector",
+        "desc": "A AI based car and pedestrian detection for road safety using OpenCV",
+        "status": "working",
+        "domain": "data science",
+        "github": "https://github.com/gunjanmimo/Car-Pedestrian-Detection",
+        "url": ""
+    },
+    {
+        "name": "Search Enginen",
+        "desc": "A search engine software system that is designed to carry out web searches",
+        "status": "completed",
+        "domain": "app development",
+        "github": "https://github.com/gunjanmimo/Search-Engine",
+        "url": "https://search-engine-dad5d.web.app/"
+    },
+    {
+        "name": "NLP ChatBot for Q&A",
+        "desc": "NLP model to read web articles and answer questions related to the article",
+        "status": "completed",
+        "domain": "data science",
+        "github": "https://github.com/gunjanmimo/Djanngo-ChatBot",
+        "url": ""
+    },
+    {
+        "name": "web scraping using selenium",
+        "desc": "Scrapped data from MagicBricks website for Data Analysis to understand the apartment price in Bengalore",
+        "status": "completed",
+        "domain": "data science",
+        "github": "https://github.com/gunjanmimo/web-scraping#web-scraping-using-selenium",
+        "url": ""
+    },
+    {
+        "name": "WIWI videocall App",
+        "desc": "A video calling app",
+        "status": "completed",
+        "domain": "app development",
+        "github": "https://github.com/gunjanmimo/WIWI-videocall",
+        "url": ""
+    },
+    {
+        "name": "Hand Gesture Recognition",
+        "desc": "Hand Gesture Recognition using Keras Nural Network and Keras Subclassing API",
+        "status": "completed",
+        "domain": "data science",
+        "github": "https://github.com/gunjanmimo/Hand-Gesture-Recognition",
+        "url": ""
+    },
+    {
+        "name": "AI Flappy Bird",
+        "desc": "An AI to make practical decisions and to play Flappy Bird",
+        "status": "completed",
+        "domain": "data science",
+        "github": "https://github.com/gunjanmimo/Flappy-Bird-AI",
+        "url": ""
+    },
+    {
+        "name": "FaceMask Detection",
+        "desc": "FaceMask Detection using Convolutional Neural Network",
+        "status": "completed",
+        "domain": "data science",
+        "github": "https://github.com/gunjanmimo/FaceMask-Detction-CNN",
+        "url": ""
+    },
+    {
+        "name": "Mimo Chat",
+        "desc": "A social Media platform for people of same mindset",
+        "status": "working",
+        "domain": "app development",
+        "github": "",
+        "url": ""
+    },
+    {
+        "name": "AI Music",
+        "desc": "AI music is a app which plays music of mood",
+        "status": "working",
+        "domain": "app development",
+        "github": "",
+        "url": ""
+    },
+    {
+        "name": "Today News",
+        "desc": "A daily shory news provider",
+        "status": "working",
+        "domain": "app development",
+        "github": "",
+        "url": ""
+    },
+    {
+        "name": "MyHood Shooter",
+        "desc": "A interactive FPS game",
+        "status": "completed",
+        "domain": "game development",
+        "github": "https://github.com/gunjanmimo/MyHood-Shooter-Game",
+        "url": ""
+    }
+]
