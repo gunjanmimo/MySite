@@ -5,7 +5,8 @@
         "status": "completed",
         "domain": "app development",
         "github": "https://github.com/gunjanmimo/COVID-19-Tracker",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://arc-anglerfish-arc2-prod-pmn.s3.amazonaws.com/public/QLMQQ2PE7ZAXXPYEIUO5N36QPI.jpg"
     },
     {
         "name": "Webtech",
@@ -13,7 +14,8 @@
         "status": "Open Source",
         "domain": "penetration testing",
         "github": "https://github.com/kaiiyer/webtech",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://www.shielder.it/img/blog/webtech_help.png"
     },
     {
         "name": "Real Time Loan Prediction",
@@ -21,7 +23,8 @@
         "status": "completed",
         "domain": "data science",
         "github": "https://github.com/gunjanmimo/real-time-loan-prediction",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://thinkific-import.s3.amazonaws.com/118220/0FiTqTdRTe6iimQNFul6_loan_pedictuin.jpg"
     },
     {
         "name": "Text Summarizer",
@@ -29,7 +32,8 @@
         "status": "completed",
         "domain": "data science",
         "github": "https://github.com/gunjanmimo/Text-Summarizer",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://miro.medium.com/max/2920/1*5_t4EJl1Iy9B1w5EtX1Zog.jpeg"
     },
     {
         "name": "IP Details Tracker",
@@ -37,7 +41,8 @@
         "status": "completed",
         "domain": "other",
         "github": "https://github.com/gunjanmimo/IP-Details-Tracker",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://3nions.com/wp-content/uploads/2020/05/wi-fi-details-iphone.png"
     },
     {
         "name": "Car & Pedestrian Detector",
@@ -45,7 +50,8 @@
         "status": "working",
         "domain": "data science",
         "github": "https://github.com/gunjanmimo/Car-Pedestrian-Detection",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://bigsnarf.files.wordpress.com/2016/11/pedesterian_detection.png?w=584"
     },
     {
         "name": "Search Enginen",
@@ -53,7 +59,8 @@
         "status": "completed",
         "domain": "app development",
         "github": "https://github.com/gunjanmimo/Search-Engine",
-        "url": "https://search-engine-dad5d.web.app/"
+        "url": "https://search-engine-dad5d.web.app/",
+        "imageUrl": "https://www.prothsearch.net/wp-content/uploads/2020/06/Search-Engine-The-Informant-With-Billions-of-Keywords-3.png"
     },
     {
         "name": "NLP ChatBot for Q&A",
@@ -61,7 +68,8 @@
         "status": "completed",
         "domain": "data science",
         "github": "https://github.com/gunjanmimo/Djanngo-ChatBot",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://cdn.technologyadvice.com/wp-content/uploads/2018/02/friendly-chatbot-700x408.jpg"
     },
     {
         "name": "web scraping using selenium",
@@ -69,7 +77,8 @@
         "status": "completed",
         "domain": "data science",
         "github": "https://github.com/gunjanmimo/web-scraping#web-scraping-using-selenium",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://www.yellowpagerobot.com/images/ypr_usyp.jpg"
     },
     {
         "name": "WIWI videocall App",
@@ -77,7 +86,8 @@
         "status": "completed",
         "domain": "app development",
         "github": "https://github.com/gunjanmimo/WIWI-videocall",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://images.wondershare.com/filmora/article-images/google-duo-app.JPG"
     },
     {
         "name": "Hand Gesture Recognition",
@@ -85,7 +95,8 @@
         "status": "completed",
         "domain": "data science",
         "github": "https://github.com/gunjanmimo/Hand-Gesture-Recognition",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://s3.envato.com/files/267827825/Hand%20Gesture%20Set%20Priview.jpg"
     },
     {
         "name": "AI Flappy Bird",
@@ -93,7 +104,8 @@
         "status": "completed",
         "domain": "data science",
         "github": "https://github.com/gunjanmimo/Flappy-Bird-AI",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://miro.medium.com/max/540/1*G-uGz8s2ti5rgVTz7AHU1w.gif"
     },
     {
         "name": "FaceMask Detection",
@@ -101,7 +113,8 @@
         "status": "completed",
         "domain": "data science",
         "github": "https://github.com/gunjanmimo/FaceMask-Detction-CNN",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://miro.medium.com/max/5680/1*_imjpHfr_sjQLuqnMft1Iw.png"
     },
     {
         "name": "Mimo Chat",
@@ -109,7 +122,8 @@
         "status": "working",
         "domain": "app development",
         "github": "",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://www.iosapptemplates.com/wp-content/uploads/2018/09/chat-iphone-app-template-firebase-swift.png"
     },
     {
         "name": "AI Music",
@@ -117,7 +131,8 @@
         "status": "working",
         "domain": "app development",
         "github": "",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://blog.eduonix.com/wp-content/uploads/2019/10/cover.jpg"
     },
     {
         "name": "Today News",
@@ -125,7 +140,8 @@
         "status": "working",
         "domain": "app development",
         "github": "",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://bamboweb.com/wp-content/uploads/2020/10/best-news-apps-for-android.jpg"
     },
     {
         "name": "MyHood Shooter",
@@ -133,6 +149,7 @@
         "status": "completed",
         "domain": "game development",
         "github": "https://github.com/gunjanmimo/MyHood-Shooter-Game",
-        "url": ""
+        "url": "",
+        "imageUrl": "https://icdn7.digitaltrends.com/image/planetside2screen-1384x923.jpg"
     }
 ]
