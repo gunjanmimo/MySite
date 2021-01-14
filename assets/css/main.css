@@ -2620,7 +2620,7 @@ button,
     color 0.2s ease-in-out;
   background-color: transparent;
   border: 0;
-  border-radius: 0;
+  border-radius: 10px;
   box-shadow: inset 0 0 0 2px #ffffff;
   color: #ffffff;
   cursor: pointer;
@@ -2635,6 +2635,7 @@ button,
   text-decoration: none;
   text-transform: uppercase;
   white-space: nowrap;
+
 }
 
 input[type="submit"]:hover,
