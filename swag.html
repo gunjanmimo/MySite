@@ -30,10 +30,10 @@
         for (var i = 0; i < response.length; i++) {
           if (!response[i].tags.includes("expired")) {
           
-            newsCard.innerHTML += "<a class='card' href='" + response[i].reference + "'><div class='card__background' style='background-image: url(" + response[i].image + ")'></div><div class='card__content'><p class='card__category' style='font-weight: 900;'>" + response[i].name + "</p><h3 class='card__heading'>" + response[i].description.replace( /(<([^>]+)>)/ig, '') + "</h3></div></a>";
+            newsCard.innerHTML += "<a class='card' target='_blank' href='" + response[i].reference + "'><div class='card__background' style='background-image: url(" + response[i].image + ")'></div><div class='card__content'><p class='card__category' style='font-weight: 900;'>" + response[i].name + "</p><h3 class='card__heading'>" + response[i].description.replace( /(<([^>]+)>)/ig, '') + "</h3></div></a>";
           }
           else{
-            expiredCard.innerHTML += "<a class='card' href='" + response[i].reference + "'><div class='card__background' style='background-image: url(" + response[i].image + ")'></div><div class='card__content'><p class='card__category' style='font-weight: 900;'>" + response[i].name + "</p><h3 class='card__heading'>" + response[i].description.replace( /(<([^>]+)>)/ig, '') + "</h3></div></a>";
+            expiredCard.innerHTML += "<a class='card' target='_blank' href='" + response[i].reference + "'><div class='card__background' style='background-image: url(" + response[i].image + ")'></div><div class='card__content'><p class='card__category' style='font-weight: 900;'>" + response[i].name + "</p><h3 class='card__heading'>" + response[i].description.replace( /(<([^>]+)>)/ig, '') + "</h3></div></a>";
           }
         
         }
