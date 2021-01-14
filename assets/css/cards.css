@@ -86,9 +86,9 @@ body {
   transform: scale(1.05) translateZ(0);
 }
 
-.card-grid:hover > .card:not(:hover) .card__background {
+/* .card-grid:hover > .card:not(:hover) .card__background {
   filter: brightness(0.5) saturate(0) contrast(1.2) blur(20px);
-}
+} */
 
 .card__content {
   left: 0;
@@ -106,8 +106,8 @@ body {
 
 .card__heading {
   color: var(--text-lighter);
-  font-size: 1.9rem;
+  font-size: 1.5rem;
   text-shadow: 2px 2px 20px rgba(0, 0, 0, 0.2);
   line-height: 1.4;
-  word-spacing: 100vw;
+  /* word-spacing: 100vw; */
 }
