@@ -169,6 +169,12 @@
 	font-weight: 500;
 	margin-bottom: -1em;
  }
+
+ .company-link{
+	 color: #096863;
+	 text-transform: uppercase;
+	 font-weight: bolder;
+ }
  .company-link:hover{
 	 text-decoration: none;
 	 font-weight: bolder;
