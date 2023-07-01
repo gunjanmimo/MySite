@@ -29,14 +29,18 @@
         var newsCard = document.getElementById("working")
         var expiredCard = document.getElementById("completed")
         for (var i = 0; i < response.length; i++) {
-          if (response[i].status =="working") {
-          
-            newsCard.innerHTML += "<a class='card' target='_blank' href='" + response[i].github + "'><div class='card__background' style='background-image: url(" + response[i].imageUrl + ")'></div><div class='card__content'><p class='card__category' style='font-weight: 900;'>" + response[i].name + "</p><h3 class='card__heading'>" + response[i].desc.replace( /(<([^>]+)>)/ig, '') + "</h3></div></a>";
+          if (response[i].status == "working") {
+            var cardText = "<a class='card' target='_blank' href='" + response[i].github + "'><div class='card__background' style='background-image: url(" + response[i].imageUrl + ")'></div><div class='card__content'><p class='card__category' style='font-weight: bold;color: white;'>" + response[i].name + "</p><h3 class='card__heading'>" + response[i].desc.replace(/(<([^>]+)>)/ig, '') + "</h3>";
+            
+            if (response[i].open_investment) {
+              cardText += "<p class='invest-text' style='font-weight: bold; background-color: #b3ffbd; color: #ff8700; border-radius: 10px;padding:10px;'>OPEN FOR INVESTMENT</p>";
+            }
+            
+            cardText += "</div></a>";
+            newsCard.innerHTML += cardText;
+          } else {
+            expiredCard.innerHTML += "<a class='card' target='_blank' href='" + response[i].github + "'><div class='card__background' style='background-image: url(" + response[i].imageUrl + ")'></div><div class='card__content'><p class='card__category' style='font-weight: 900;'>" + response[i].name + "</p><h3 class='card__heading'>" + response[i].desc.replace(/(<([^>]+)>)/ig, '') + "</h3></div></a>";
           }
-          else{
-            expiredCard.innerHTML += "<a class='card' target='_blank' href='" + response[i].github + "'><div class='card__background' style='background-image: url(" + response[i].imageUrl + ")'></div><div class='card__content'><p class='card__category' style='font-weight: 900;'>" + response[i].name + "</p><h3 class='card__heading'>" + response[i].desc.replace( /(<([^>]+)>)/ig, '') + "</h3></div></a>";
-          }
-        
         }
       })
   </script>

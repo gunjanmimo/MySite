@@ -143,32 +143,24 @@
     "url": "",
     "imageUrl": "https://miro.medium.com/max/5680/1*_imjpHfr_sjQLuqnMft1Iw.png"
   },
-  {
-    "name": "Mimo Chat",
-    "desc": "A social Media platform for people of same mindset",
-    "status": "working",
-    "domain": "app development",
-    "github": "",
-    "url": "",
-    "imageUrl": "https://www.iosapptemplates.com/wp-content/uploads/2018/09/chat-iphone-app-template-firebase-swift.png"
-  },
-  {
-    "name": "AI Music",
-    "desc": "AI music is a app which plays music of mood",
-    "status": "working",
-    "domain": "app development",
-    "github": "",
-    "url": "",
-    "imageUrl": "https://blog.eduonix.com/wp-content/uploads/2019/10/cover.jpg"
-  },
 
   {
-    "name": "MyHood Shooter",
-    "desc": "A interactive FPS game",
-    "status": "completed",
-    "domain": "game development",
-    "github": "https://github.com/gunjanmimo/MyHood-Shooter-Game",
+    "name": "Shuttle",
+    "desc": "A future of transportation toward Better Living and Sustainable Future",
+    "status": "working",
+    "domain": "app development",
+    "github": "",
     "url": "",
-    "imageUrl": "https://cdn.oneesports.gg/cdn-data/2022/01/pokemon_fps_game.jpg"
+    "open_investment": true,
+    "imageUrl": "https://bus-news.com/wp-content/uploads/sites/4/2022/01/Quantron-12m-City-Bus.jpeg"
+  },
+  {
+    "name": "Secure model agnostic Computer Vision Model",
+    "desc": "Understand how your production CV models are working and make it more secure with a few steps",
+    "status": "working",
+    "domain": "Computer Vision",
+    "github": "",
+    "url": "",
+    "imageUrl": "https://static01.nyt.com/newsgraphics/2021/03/14/mag-face-recognition/assets/images/mel-fallback-1600.jpg"
   }
 ]
